@@ -4,8 +4,13 @@ import data from "./data";
 const [first, second] = animals;
 console.log(second);
 
-const { name: catName, sound: dogSound } = second;
-console.log(catName);
+// const { name: catName, sound: dogSound } = second;
+// console.log(catName);
+
+//update value
+const { name = "Cow", sound = "Hummba" } = second;
+
+console.log(name);
 
 // console.log(animals[0].name);
 
