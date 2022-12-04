@@ -2,8 +2,10 @@ import animals from "./data";
 import data from "./data";
 
 const [first, second] = animals;
-
 console.log(second);
+
+const { name, sound } = second;
+console.log(sound);
 
 // CHALLENGE: uncomment the code below and see the car stats rendered
 // import React from "react";
